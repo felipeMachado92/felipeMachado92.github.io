@@ -138,6 +138,51 @@ header p {
 	width: 100%;
 }
 
+.panel {
+	  	margin-bottom: 20px;
+	  	margin-right: 20px;
+	  	margin-left: 20px;
+	  	background-color: #fff;
+	  	border: 1px solid transparent;
+	  	border-radius: 4px;
+	    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	}
+
+.panel-default {border-color: #ddd;}
+
+.panel-heading {
+	padding: 10px 15px;
+  	border-bottom: 1px solid transparent;
+  	border-top-left-radius: 3px;
+  	border-top-right-radius: 3px;
+}
+
+.panel-body {padding: 15px;}
+
+.panel-profile .panel-title{margin-bottom:5px;}
+
+.panel-profile .panel-heading{
+	height:150px;
+	background-size:cover;
+}
+
+.panel-profile-img{
+	max-width:100px;
+	margin-top:-70px;
+	margin-bottom:5px;
+	border:3px solid #fff;
+	border-radius:100%;
+	box-shadow:0 1px 1px rgba(0,0,0,0.1);
+}
+		
+.panel-title {
+ 	margin-top: 0;
+  	margin-bottom: 0;
+  	font-size: 16px;
+  	color: inherit;
+}
+
 /*CONTATO*/
 
 #contato {
@@ -220,16 +265,16 @@ footer {
 	#portfolio{
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	
 	#portfolio h2{
 		width: 100%;
 		text-align: center;
 	}
-	
-	#porfolio img{
-		width: 33.3333333333%;
-	}
+
+	#porfolio img{width: 33.3333333333%;}
+
 	/*CONTATO*/
 	
 	#contato{
